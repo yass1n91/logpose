@@ -1,0 +1,22 @@
+{
+  "name": "logpose",
+  "version": "1.0.0",
+  "description": "Collection One Piece Card Game avec PostgreSQL et MongoDB",
+  "private": true,
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.3.0",
+    "mongodb": "^7.9.0",
+    "pg": "^8.23.1"
+  }
+}
