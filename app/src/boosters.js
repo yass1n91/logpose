@@ -19,7 +19,7 @@ export async function ouvrir(utilisateurId, edition, id) {
       await connexion.query('COMMIT');
       return { id, cartes: document.cartes, edition: document.edition, portefeuille: publicCompte(compte) };
     }
-    if (compte.pieces < PRIX_BOOSTER) throw erreur(409, 'Il faut 100 pièces pour ouvrir ce booster. Rendez-vous au clicker.');
+    if (compte.pieces < PRIX_BOOSTER) throw erreur(409, 'Il faut 100 pièces pour ouvrir ce booster. Rendez-vous au collecteur de pièces.');
     const cartes = tirerBooster(source);
     compte.pieces -= PRIX_BOOSTER;
     await connexion.query('UPDATE utilisateurs SET pieces=$1 WHERE id=$2', [compte.pieces, utilisateurId]);

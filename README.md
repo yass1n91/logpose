@@ -1,8 +1,8 @@
-﻿# Log Pose
+# Log Pose
 
 Projet NoSQL réalisé par Yassin Benbrahim et Amir Kabbouri.
 
-Log Pose permet de gérer ses cartes One Piece avec un compte personnel. On peut rechercher une carte par son code, remplir sa fiche depuis l’API, puis l’ajouter à sa collection. Un clicker permet de gagner des pièces pour ouvrir des boosters et conserver les cartes dans une collection virtuelle séparée. Les probabilités des boosters sont simplifiées.
+Log Pose permet de gérer ses cartes One Piece avec un compte personnel. On peut rechercher une carte par son code, remplir sa fiche depuis l’API, puis l’ajouter à sa collection. Un collecteur de pièces permet de gagner des pièces pour ouvrir des boosters et conserver les cartes dans une collection virtuelle séparée. Les probabilités des boosters sont simplifiées.
 
 Site : https://logpose.franklinmahrez.online
 
